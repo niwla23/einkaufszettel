@@ -21,7 +21,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: einkaufszettel
           file: einkaufszettel/Dockerfile
           push: true
           tags: ghcr.io/niwla23/einkaufszettel:latest
